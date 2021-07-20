@@ -14,6 +14,7 @@ public class LoginPage extends TestBase {
 	public WebElement txtUserName;
 	
 	By userName1 = By.id("myid");
+//	driver.findElement(userName1);
 	
 	
 	@FindBy(xpath="//input[@name='pwd']")

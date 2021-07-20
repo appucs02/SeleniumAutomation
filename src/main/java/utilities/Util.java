@@ -1,5 +1,6 @@
 package utilities;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.WebElement;
@@ -95,4 +96,43 @@ public class Util extends TestBase{
 
 	}
 
+	//Alerts
+	public static void acceptAlert() {
+		try {
+			waitForAlert();
+			Alert alt= driver.switchTo().alert();
+			alt.accept();
+		}catch(Exception e) {
+			logger.info(e.getMessage());
+		}
+	}
+	public static void dismissAlert() {
+		try {
+			waitForAlert();
+			Alert alt= driver.switchTo().alert();
+			alt.dismiss();
+		}catch(Exception e) {
+			logger.info(e.getMessage());
+		}
+	}
+	public static String getTextFromAlert() {
+		try {
+			waitForAlert();
+			Alert alt= driver.switchTo().alert();
+			return alt.getText();
+		}catch(Exception e) {
+			logger.info(e.getMessage());
+		}
+		return "";
+	}
+	
+	public static void setTextIntoAlert(String strValue) {
+		try {
+			waitForAlert();
+			Alert alt= driver.switchTo().alert();
+			alt.sendKeys(strValue);
+		}catch(Exception e) {
+			logger.info(e.getMessage());
+		}
+	}
 }

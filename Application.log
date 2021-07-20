@@ -1,68 +1,21 @@
-2021-07-10 21:42:57 INFO  ACTI TIME Logger:21 - Setting up for Test Execution on driver
-  2021-07-10 21:43:07 INFO  ACTI TIME Logger:50 - ******Starting createTask Method ********* 
-  2021-07-10 21:46:29 INFO  ACTI TIME Logger:21 - Setting up for Test Execution on driver
-  2021-07-10 21:46:39 INFO  ACTI TIME Logger:50 - ******Starting createTask Method ********* 
-  2021-07-10 21:58:04 INFO  ACTI TIME Logger:21 - Setting up for Test Execution on driver
-  2021-07-10 21:58:15 INFO  ACTI TIME Logger:50 - ******Starting createTask Method ********* 
-  2021-07-10 22:03:52 INFO  ACTI TIME Logger:21 - Setting up for Test Execution on driver
-  2021-07-10 22:04:02 INFO  ACTI TIME Logger:50 - ******Starting createTask Method ********* 
-  2021-07-10 22:20:13 INFO  ACTI TIME Logger:21 - Setting up for Test Execution on driver
-  2021-07-10 22:20:25 INFO  ACTI TIME Logger:50 - ******Starting createTask Method ********* 
-  2021-07-10 22:22:20 INFO  ACTI TIME Logger:21 - Setting up for Test Execution on driver
-  2021-07-10 22:22:31 INFO  ACTI TIME Logger:50 - ******Starting createTask Method ********* 
-  2021-07-10 22:26:17 INFO  ACTI TIME Logger:21 - Setting up for Test Execution on driver
-  2021-07-10 22:26:29 INFO  ACTI TIME Logger:50 - ******Starting createTask Method ********* 
-  2021-07-10 22:33:52 INFO  ACTI TIME Logger:21 - Setting up for Test Execution on driver
-  2021-07-10 22:34:02 INFO  ACTI TIME Logger:50 - ******Starting createTask Method ********* 
-  2021-07-10 22:34:31 INFO  ACTI TIME Logger:62 - Customer is created successfully
-  2021-07-10 22:34:33 INFO  ACTI TIME Logger:66 - ******Starting createTask Method ********* 
-  2021-07-11 18:33:29 INFO  ACTI TIME Logger:21 - Setting up for Test Execution on driver
-  2021-07-11 18:33:47 INFO  ACTI TIME Logger:56 - ******Starting createTask Method ********* 
-  2021-07-11 18:35:21 INFO  ACTI TIME Logger:21 - Setting up for Test Execution on driver
-  2021-07-11 18:35:35 INFO  ACTI TIME Logger:50 - ******Starting createTask Method ********* 
-  2021-07-11 18:36:08 INFO  ACTI TIME Logger:62 - Customer is created successfully
-  2021-07-11 18:36:10 INFO  ACTI TIME Logger:66 - ******Starting createTask Method ********* 
-  2021-07-11 20:02:28 INFO  ACTI TIME Logger:22 - Setting up for Test Execution on driver
-  2021-07-11 20:02:41 INFO  ACTI TIME Logger:51 - ******Starting createTask Method ********* 
-  2021-07-11 20:02:56 INFO  ACTI TIME Logger:62 - Customer is created successfully
-  2021-07-11 20:02:58 INFO  ACTI TIME Logger:39 - element click intercepted: Element <a href="/logout.do" id="logoutLink" class="logout">...</a> is not clickable at point (1309, 17). Other element would receive the click: <div class="loadingMoire anim-fade-out" style="display: flex;">...</div>
+2021-07-16 10:46:47 INFO  ACTI TIME Logger:22 - Setting up for Test Execution on driver
+  2021-07-16 10:47:02 INFO  ACTI TIME Logger:51 - ******Starting createTask Method ********* 
+  2021-07-16 10:47:18 INFO  ACTI TIME Logger:62 - Customer is created successfully
+  2021-07-16 10:47:19 INFO  ACTI TIME Logger:40 - element click intercepted: Element <a href="/logout.do" id="logoutLink" class="logout">...</a> is not clickable at point (1309, 17). Other element would receive the click: <div class="loadingMoire anim-fade-out" style="display: flex;">...</div>
   (Session info: chrome=91.0.4472.124)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'RUTHWIK', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+System info: host: 'RUTHWIK', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f7c7db42750e20267626df4bfbddd071
-  2021-07-11 20:02:58 INFO  ACTI TIME Logger:63 - ******Starting createTask Method ********* 
-  2021-07-11 20:12:05 INFO  ACTI TIME Logger:22 - Setting up for Test Execution on driver
-  2021-07-11 20:12:17 INFO  ACTI TIME Logger:51 - ******Starting createTask Method ********* 
-  2021-07-11 20:12:31 INFO  ACTI TIME Logger:62 - Customer is created successfully
-  2021-07-11 20:12:33 INFO  ACTI TIME Logger:39 - element click intercepted: Element <a href="/logout.do" id="logoutLink" class="logout">...</a> is not clickable at point (1309, 17). Other element would receive the click: <div class="loadingMoire anim-fade-out" style="display: flex;">...</div>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 21a18e80332e8e34c7406e9fc0a598c1
+  2021-07-16 10:52:24 INFO  ACTI TIME Logger:22 - Setting up for Test Execution on driver
+  2021-07-16 10:52:45 INFO  ACTI TIME Logger:51 - ******Starting createTask Method ********* 
+  2021-07-16 10:53:04 INFO  ACTI TIME Logger:62 - Customer is created successfully
+  2021-07-16 10:53:06 INFO  ACTI TIME Logger:40 - element click intercepted: Element <a href="/logout.do" id="logoutLink" class="logout">...</a> is not clickable at point (1309, 17). Other element would receive the click: <div class="loadingMoire anim-fade-out" style="display: flex;">...</div>
   (Session info: chrome=91.0.4472.124)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'RUTHWIK', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+System info: host: 'RUTHWIK', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57663}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6d7e8f9308fcfff183d36ed27d5ddb00
-  2021-07-11 20:18:48 INFO  ACTI TIME Logger:22 - Setting up for Test Execution on driver
-  2021-07-11 20:19:00 INFO  ACTI TIME Logger:51 - ******Starting createTask Method ********* 
-  2021-07-11 20:19:15 INFO  ACTI TIME Logger:62 - Customer is created successfully
-  2021-07-11 20:19:17 INFO  ACTI TIME Logger:39 - element click intercepted: Element <a href="/logout.do" id="logoutLink" class="logout">...</a> is not clickable at point (1309, 17). Other element would receive the click: <div class="loadingMoire anim-fade-out" style="display: flex;">...</div>
-  (Session info: chrome=91.0.4472.124)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'RUTHWIK', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55095}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 87d5d3e829ceaf060477b866c37099ea
-  2021-07-11 20:21:23 INFO  ACTI TIME Logger:22 - Setting up for Test Execution on driver
-  2021-07-11 20:23:18 INFO  ACTI TIME Logger:22 - Setting up for Test Execution on driver
-  2021-07-11 20:23:32 INFO  ACTI TIME Logger:51 - ******Starting createTask Method ********* 
-  2021-07-11 20:23:47 INFO  ACTI TIME Logger:62 - Customer is created successfully
-  2021-07-11 20:23:48 INFO  ACTI TIME Logger:39 - element click intercepted: Element <a href="/logout.do" id="logoutLink" class="logout">...</a> is not clickable at point (1309, 17). Other element would receive the click: <div class="loadingMoire anim-fade-out" style="display: flex;">...</div>
-  (Session info: chrome=91.0.4472.124)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'RUTHWIK', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55211}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d0ae1cdf2356089ce31e88751240d8d
-  2021-07-11 20:24:46 INFO  ACTI TIME Logger:67 - ******Starting createTask Method ********* 
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 375dc7293d252b1a7eb4e6943db5adb5
   
