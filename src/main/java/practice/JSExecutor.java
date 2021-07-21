@@ -10,15 +10,61 @@ import testbase.TestBase;
 
 public class JSExecutor extends TestBase {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		driver = getDriver("chrome");
 
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
-		driver.get("https://html.com/input-type-file/");
-		WebElement element = driver.findElement(By.xpath("//input[@type='file' and @name='fileupload']"));
+		driver.get("https://www.google.com/");
+//		WebElement element = driver.findElement(By.xpath("//input[@type='file' and @name='fileupload']"));
+		
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		
+		//Domain Name
+		String DomainName = (String) js.executeScript("return document.domain;"); //rerurns domain name of current site
+		System.out.println(DomainName);
+		//gettting URL
+		String url = (String)js.executeScript("return document.URL");
+		System.out.println(url);
+		
+		//Navigate
+		js.executeScript("window.location = 'https://www.gmail.com/'");
+		
+		System.out.println(driver.getTitle());
+		Thread.sleep(3000);
+		
+		//Scroll by Size
+		
+		js.executeScript("window.scrollTo(0,600)");
+		Thread.sleep(3000);
+		
+		//click an element
+		WebElement element = driver.findElement(By.xpath("//span[text()='Create an account'][1]"));
+		Thread.sleep(2000);
+		js.executeScript("arguments[0].click();", element);
+		Thread.sleep(5000);
+		
+		//Set an Alert
+		 js.executeScript("alert('Enter all your details');");  
+		 Thread.sleep(5000);
+		 
+		 //highlight an element
+		 js.executeScript("arguments[0].setAttribute('style', 'background: blue; border: 2px solid red;');",element);
+
+		 
+		 //setValue
+		 String strText="Naidu";
+		 js.executeScript("argument[0].setAttribuite('')=Naidu",driver.findElement(By.id("firstName")));
+		 
+		 element.getAttribute("Value");
+		 
+		driver.quit();
+		
+		
+		
+		/*
 		
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		
@@ -47,7 +93,7 @@ public class JSExecutor extends TestBase {
 		 js.executeScript("argument[0].style.boarder='3px solid red'", element);
 		 
 		 //set background color
-		 js.executeScript("argument[0].style.backgroundColor='"+element.getCssValue("backgroundColor")+"'", element);
+		 js.executeScript("argument[0].style.backgroundColor='"+element.getCssValue("backgroundColor")+"'", element);*/
 	}
 
 }
