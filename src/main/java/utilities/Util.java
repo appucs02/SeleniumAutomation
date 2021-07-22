@@ -1,10 +1,14 @@
 package utilities;
 
+import java.util.List;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotVisibleException;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import testbase.TestBase;
@@ -93,7 +97,7 @@ public class Util extends TestBase{
 		}catch(Exception e) {
 			logger.info(e.getMessage());
 		}
-
+		
 	}
 
 	//Alerts
@@ -131,6 +135,63 @@ public class Util extends TestBase{
 			waitForAlert();
 			Alert alt= driver.switchTo().alert();
 			alt.sendKeys(strValue);
+		}catch(Exception e) {
+			logger.info(e.getMessage());
+		}
+	}
+	
+	//when we have select Tag only
+	public static void selectByVisibleText(WebElement element,String strValue) {
+		Select slc;
+		try {
+			waitForElementVisibility(element);
+			slc = new Select(element);
+			slc.selectByVisibleText(strValue);
+		}catch(Exception e) {
+			logger.info(e.getMessage());
+		}
+	}
+	
+	public static void selectfromListofWebElements(List<WebElement> lstOptions,String strValue) {
+		try {
+			for(int i=0;i<lstOptions.size();i++) {
+				if(lstOptions.get(i).getText().equalsIgnoreCase(strValue)) {
+					lstOptions.get(i).click();
+					break;
+				}
+			}
+		}catch(Exception e) {
+			logger.info(e.getMessage());
+		}
+	}
+	
+	public static void jsSetText(WebElement element,String objName,String strValue) {
+		
+		try {
+			JavascriptExecutor js = (JavascriptExecutor)driver;
+			waitForElementVisibility(element); //waiting x seconds
+			if(element.isDisplayed()) {
+				js.executeScript("arguments[0].setAttribute('value','"+strValue+"');", element);
+			}else {
+				logger.info("WebElement is not found for "+objName);
+			}
+
+		}catch(Exception e) {
+			logger.info(e.getMessage());
+		}
+	}
+	
+public static void jsClickElement(WebElement element,String objName) {
+		
+		try {
+			JavascriptExecutor js = (JavascriptExecutor)driver;
+			waitForElementVisibility(element); //waiting x seconds
+			if(element.isDisplayed()) {
+				js.executeScript("arguments[0].click();", element);
+			}else {
+				logger.info("WebElement is not found for "+objName);
+			}
+
 		}catch(Exception e) {
 			logger.info(e.getMessage());
 		}
