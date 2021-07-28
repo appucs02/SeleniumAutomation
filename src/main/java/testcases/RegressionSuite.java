@@ -17,7 +17,7 @@ public class RegressionSuite extends TestBase{
 	HomePage home;
 	TasksPage task;
 	CreateNewCustomer newCustomer;
-	@BeforeClass
+	@BeforeMethod(alwaysRun=true)
 	void setup() throws IOException {
 		logger.info("Setting up for Test Execution on driver");
 		prop = getProperties("config.properties");
@@ -26,14 +26,14 @@ public class RegressionSuite extends TestBase{
 	}
 	
 
-	@Test
-	void getPageTitle() {
+	@Test(groups= {"SanityTests","Regression"})
+	void TC001_getPageTitle() {
 		Assert.assertEquals(driver.getTitle(), "actiTIME - Login");
 		System.out.println("hello world");
 	}
 	
-	@Test
-	void logintoApp() {
+	@Test(groups= {"Regression"})
+	void TC002_logintoApp() {
 		driver.findElement(By.id("username")).sendKeys(prop.getProperty("userName"));
 		driver.findElement(By.name("pwd")).sendKeys(prop.getProperty("password"));
 		driver.findElement(By.id("loginButton")).click();
@@ -41,13 +41,13 @@ public class RegressionSuite extends TestBase{
 
 	}
 	
-	@Test
-	void loginadfasd() {
+	@Test(groups= {"SmokeTests"})
+	void TC003_loginadfasd() {
 		login = new LoginPage(driver);
 		login.loginToApp();
 	}
-	@Test
-	void createTask() {
+	@Test(groups= {"Regression"})
+	void TC004_createTask() {
 		logger.info("******Starting createTask Method ********* " );
 		login = new LoginPage(driver);
 		home= new HomePage(driver);
@@ -59,16 +59,16 @@ public class RegressionSuite extends TestBase{
 		task.AddNewCustomer();
 		newCustomer.CreateCustomerData("Sudheer", "I work in Virtusa");
 		newCustomer.verifyCustomer("Sudheer");
-		home=new HomePage(driver);
+		/*home=new HomePage(driver);
 		home.logoutFromApp();
 		Util.waitForElementVisibility(login.txtUserName);
 		
 		Assert.assertTrue(login.txtUserName.isDisplayed(),"user did not log out successfully");
-		
+		*/
 		logger.info("******Starting createTask Method ********* " );
 	}
 	
-	@AfterClass
+	@AfterMethod(alwaysRun=true)
 	void tearDown() {
 		driver.quit();
 	}

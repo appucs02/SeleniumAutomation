@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Tasks(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+        <include name="SmokeTests"/>
+        <include name="SanityTests"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcases.RegressionSuite">
+        <methods>
+          <include name="TC004_createTask"/>
+          <include name="TC002_logintoApp"/>
+          <include name="TC003_loginadfasd"/>
+          <include name="TC001_getPageTitle"/>
+        </methods>
+      </class> <!-- testcases.RegressionSuite -->
+    </classes>
+  </test> <!-- Tasks(failed) -->
+</suite> <!-- Failed suite [Suite] -->

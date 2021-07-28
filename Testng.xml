@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ActiTime Automation Tests">
+	<test name="Time-Track Test Cases">
+	</test>
+	<test name="Tasks Tests">
+		<classes>
+			<class name="testcases.RegressionSuite">
+				<methods>
+					<include name="getPageTitle" />
+					<include name="login.*" />
+					<exclude name="loginadfasd" />
+					<include name="createTask" />
+					<!-- <include name="createCustomer.*" />  Regular Expression-->
+				</methods>
+			</class>
+
+			<!-- <class name="testcases.TasksTests" /> <class name="testcases.SmokeTests" 
+				/> -->
+		</classes>
+	</test>
+
+	<test name="Report Tests">
+
+	</test>
+</suite>

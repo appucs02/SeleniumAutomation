@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<groups>
+		<run>
+			<!-- <include name="Regression" /> -->
+			<include name="SmokeTests" />
+			<include name="SanityTests" />
+		</run>
+	</groups>
+	<test name="Tasks">
+		<groups>
+			<run>
+				<include name="Regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testcases.RegressionSuite">
+				<methods>
+					<!-- <include name="getPageTitle" />
+					<include name="login.*" />
+					<include name="createTask" />
+					 -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TimeTrcker">
+	</test>
+	
+	<test name="Info">
+	</test>
+</suite>

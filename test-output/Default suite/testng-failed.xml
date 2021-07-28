@@ -6,8 +6,11 @@
       <class name="testcases.RegressionSuite">
         <methods>
           <include name="tearDown"/>
-          <include name="createTask"/>
+          <include name="TC004_createTask"/>
           <include name="setup"/>
+          <include name="TC002_logintoApp"/>
+          <include name="TC003_loginadfasd"/>
+          <include name="TC001_getPageTitle"/>
         </methods>
       </class> <!-- testcases.RegressionSuite -->
     </classes>

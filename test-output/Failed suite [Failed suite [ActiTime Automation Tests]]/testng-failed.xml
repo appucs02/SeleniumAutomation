@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [ActiTime Automation Tests]]]">
+  <test name="Tasks Tests(failed)(failed)(failed)">
+    <classes>
+      <class name="testcases.RegressionSuite">
+        <methods>
+          <include name="tearDown"/>
+          <include name="createTask"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.RegressionSuite -->
+    </classes>
+  </test> <!-- Tasks Tests(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [ActiTime Automation Tests]]] -->
