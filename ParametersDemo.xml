@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ActiTime Automation Tests">
+	<parameter name="BrowserName" value="Chrome" />
+	<parameter name="Url"
+		value="https://demo.actitime.com/login.do" />
+	<test name="Time-Track Test Cases">
+		<parameter name="CustomerName" value="Sudheer" />
+		<parameter name="CustPAN" value="ASEDFS5151" />
+		<classes>
+			<class name="practice.ParametersDemo" />
+		</classes>
+	</test>
+
+</suite>

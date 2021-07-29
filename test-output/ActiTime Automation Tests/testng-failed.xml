@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [ActiTime Automation Tests]">
-  <test name="Tasks Tests(failed)">
+  <test name="Time-Track Test Cases(failed)">
+    <parameter name="CustPAN" value="ASEDFS5151"/>
+    <parameter name="CustomerName" value="Sudheer"/>
     <classes>
-      <class name="testcases.RegressionSuite">
+      <class name="practice.ParametersDemo">
         <methods>
-          <include name="tearDown"/>
-          <include name="createTask"/>
-          <include name="setup"/>
+          <include name="ShowCustDetails"/>
         </methods>
-      </class> <!-- testcases.RegressionSuite -->
+      </class> <!-- practice.ParametersDemo -->
     </classes>
-  </test> <!-- Tasks Tests(failed) -->
+  </test> <!-- Time-Track Test Cases(failed) -->
 </suite> <!-- Failed suite [ActiTime Automation Tests] -->

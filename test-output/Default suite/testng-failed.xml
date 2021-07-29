@@ -3,16 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testcases.RegressionSuite">
+      <class name="practice.ParametersDemo">
         <methods>
-          <include name="tearDown"/>
-          <include name="TC004_createTask"/>
-          <include name="setup"/>
-          <include name="TC002_logintoApp"/>
-          <include name="TC003_loginadfasd"/>
-          <include name="TC001_getPageTitle"/>
+          <include name="ShowCustDetails"/>
         </methods>
-      </class> <!-- testcases.RegressionSuite -->
+      </class> <!-- practice.ParametersDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

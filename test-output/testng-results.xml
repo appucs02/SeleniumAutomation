@@ -1,87 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="ActiTime Automation Tests" duration-ms="142" started-at="2021-07-28T06:03:09Z" finished-at="2021-07-28T06:03:09Z">
+  <suite name="ActiTime Automation Tests" duration-ms="18925" started-at="2021-07-29T06:10:11Z" finished-at="2021-07-29T06:10:30Z">
     <groups>
     </groups>
-    <test name="Tasks" duration-ms="75" started-at="2021-07-28T06:03:09Z" finished-at="2021-07-28T06:03:09Z">
-      <class name="testcases.AnnotationDemo">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.AnnotationDemo@31dc339b]" name="beforeTest" is-config="true" duration-ms="3" started-at="2021-07-28T11:33:09Z" finished-at="2021-07-28T11:33:09Z">
+    <test name="Time-Track Test Cases" duration-ms="18925" started-at="2021-07-29T06:10:11Z" finished-at="2021-07-29T06:10:30Z">
+      <class name="practice.ParametersDemo">
+        <test-method status="PASS" signature="ShowCustDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:practice.ParametersDemo@64bf3bbf]" name="ShowCustDetails" duration-ms="18872" started-at="2021-07-29T11:40:11Z" finished-at="2021-07-29T11:40:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sudheer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ASEDFS5151]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://demo.actitime.com/login.do]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.AnnotationDemo@31dc339b]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-07-28T11:33:09Z" finished-at="2021-07-28T11:33:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="TC001()[pri:0, instance:testcases.AnnotationDemo@31dc339b]" name="TC001" duration-ms="12" started-at="2021-07-28T11:33:09Z" finished-at="2021-07-28T11:33:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001 -->
-        <test-method status="PASS" signature="TC002()[pri:0, instance:testcases.AnnotationDemo@31dc339b]" name="TC002" duration-ms="4" started-at="2021-07-28T11:33:09Z" finished-at="2021-07-28T11:33:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC002 -->
-        <test-method status="PASS" signature="beforeAfter()[pri:0, instance:testcases.AnnotationDemo@31dc339b]" name="beforeAfter" is-config="true" duration-ms="1" started-at="2021-07-28T11:33:09Z" finished-at="2021-07-28T11:33:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeAfter -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.AnnotationDemo@31dc339b]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-07-28T11:33:09Z" finished-at="2021-07-28T11:33:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- testcases.AnnotationDemo -->
-    </test> <!-- Tasks -->
-    <test name="Info" duration-ms="32" started-at="2021-07-28T06:03:09Z" finished-at="2021-07-28T06:03:09Z">
-      <class name="testcases.AnnotationDemo">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.AnnotationDemo@520a3426]" name="beforeSuite" is-config="true" duration-ms="28" started-at="2021-07-28T11:33:09Z" finished-at="2021-07-28T11:33:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.AnnotationDemo@520a3426]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-07-28T11:33:09Z" finished-at="2021-07-28T11:33:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.AnnotationDemo@520a3426]" name="beforeClass" is-config="true" duration-ms="3" started-at="2021-07-28T11:33:09Z" finished-at="2021-07-28T11:33:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="TC001()[pri:0, instance:testcases.AnnotationDemo@520a3426]" name="TC001" duration-ms="4" started-at="2021-07-28T11:33:09Z" finished-at="2021-07-28T11:33:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001 -->
-        <test-method status="PASS" signature="TC002()[pri:0, instance:testcases.AnnotationDemo@520a3426]" name="TC002" duration-ms="3" started-at="2021-07-28T11:33:09Z" finished-at="2021-07-28T11:33:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC002 -->
-        <test-method status="PASS" signature="beforeAfter()[pri:0, instance:testcases.AnnotationDemo@520a3426]" name="beforeAfter" is-config="true" duration-ms="1" started-at="2021-07-28T11:33:09Z" finished-at="2021-07-28T11:33:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeAfter -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.AnnotationDemo@520a3426]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-07-28T11:33:09Z" finished-at="2021-07-28T11:33:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.AnnotationDemo@520a3426]" name="afterSuite" is-config="true" duration-ms="1" started-at="2021-07-28T11:33:09Z" finished-at="2021-07-28T11:33:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- testcases.AnnotationDemo -->
-      <class name="testcases.TasksTests">
-        <test-method status="PASS" signature="test()[pri:0, instance:testcases.TasksTests@18eed359]" name="test" duration-ms="1" started-at="2021-07-28T11:33:09Z" finished-at="2021-07-28T11:33:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.TasksTests@18eed359]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-07-28T11:33:09Z" finished-at="2021-07-28T11:33:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeAfter()[pri:0, instance:testcases.TasksTests@18eed359]" name="beforeAfter" is-config="true" duration-ms="1" started-at="2021-07-28T11:33:09Z" finished-at="2021-07-28T11:33:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeAfter -->
-      </class> <!-- testcases.TasksTests -->
-    </test> <!-- Info -->
+        </test-method> <!-- ShowCustDetails -->
+      </class> <!-- practice.ParametersDemo -->
+    </test> <!-- Time-Track Test Cases -->
   </suite> <!-- ActiTime Automation Tests -->
 </testng-results>
