@@ -28,7 +28,7 @@ public class RegressionSuite extends TestBase{
 
 	@Test(groups= {"SanityTests","Regression"})
 	void TC001_getPageTitle() {
-		Assert.assertEquals(driver.getTitle(), "actiTIME - Login");
+		Assert.assertEquals(driver.getTitle(), "TIME - Login");
 		System.out.println("hello world");
 	}
 	

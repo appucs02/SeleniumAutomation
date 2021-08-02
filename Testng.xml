@@ -2,31 +2,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="ActiTime Automation Tests">
-	<test name="Time-Track Test Cases">
-	</test>
+	<listeners>
+		<listener class-name="extentreportlistner.ExtentListner" />
+	</listeners>
+
 	<test name="Tasks Tests">
 		<classes>
-			<class name="practice.PriorityDemo">
+			<class name="testcases.RegressionSuite">
 				<methods>
-					<include name="TC004"  />
-					<include name="TC002" />
-					<include name="TC001" />
-					<include name="TC003" />
+					<include name="TC004.*" />
+					<include name="TC002.*" />
+					<include name="TC001.*" />
+					<include name="TC003.*" />
 				</methods>
 			</class>
 
-			<!-- <class name="practice.AttributesDemo" > <methods> <include name="createCustomer" 
-				/> <include name="createTimetracker" /> <include name="display" /> <include 
-				name="show" /> </methods> </class> -->
-			<!-- <class name="testcases.RegressionSuite"> <methods> <include name="getPageTitle" 
-				/> <include name="login.*" /> <exclude name="loginadfasd" /> <include name="createTask" 
-				/> <include name="createCustomer.*" /> Regular Expression </methods> </class> -->
-			<!-- <class name="testcases.TasksTests" /> <class name="testcases.SmokeTests" 
-				/> -->
 		</classes>
-	</test>
-
-	<test name="Report Tests">
-
 	</test>
 </suite>

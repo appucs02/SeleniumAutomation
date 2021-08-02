@@ -1,39 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="ActiTime Automation Tests" duration-ms="18925" started-at="2021-07-29T06:10:11Z" finished-at="2021-07-29T06:10:30Z">
+  <suite name="ActiTime Automation Tests" duration-ms="94838" started-at="2021-08-02T05:26:08Z" finished-at="2021-08-02T05:27:43Z">
     <groups>
+      <group name="Regression">
+        <method signature="RegressionSuite.TC001_getPageTitle()[pri:0, instance:testcases.RegressionSuite@2ac273d3]" name="TC001_getPageTitle" class="testcases.RegressionSuite"/>
+        <method signature="RegressionSuite.TC002_logintoApp()[pri:0, instance:testcases.RegressionSuite@2ac273d3]" name="TC002_logintoApp" class="testcases.RegressionSuite"/>
+        <method signature="RegressionSuite.TC004_createTask()[pri:0, instance:testcases.RegressionSuite@2ac273d3]" name="TC004_createTask" class="testcases.RegressionSuite"/>
+      </group> <!-- Regression -->
+      <group name="SanityTests">
+        <method signature="RegressionSuite.TC001_getPageTitle()[pri:0, instance:testcases.RegressionSuite@2ac273d3]" name="TC001_getPageTitle" class="testcases.RegressionSuite"/>
+      </group> <!-- SanityTests -->
+      <group name="SmokeTests">
+        <method signature="RegressionSuite.TC003_loginadfasd()[pri:0, instance:testcases.RegressionSuite@2ac273d3]" name="TC003_loginadfasd" class="testcases.RegressionSuite"/>
+      </group> <!-- SmokeTests -->
     </groups>
-    <test name="Time-Track Test Cases" duration-ms="18925" started-at="2021-07-29T06:10:11Z" finished-at="2021-07-29T06:10:30Z">
-      <class name="practice.ParametersDemo">
-        <test-method status="PASS" signature="ShowCustDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:practice.ParametersDemo@64bf3bbf]" name="ShowCustDetails" duration-ms="18872" started-at="2021-07-29T11:40:11Z" finished-at="2021-07-29T11:40:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sudheer]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ASEDFS5151]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[https://demo.actitime.com/login.do]]>
-              </value>
-            </param>
-          </params>
+    <test name="Tasks Tests" duration-ms="94838" started-at="2021-08-02T05:26:08Z" finished-at="2021-08-02T05:27:43Z">
+      <class name="testcases.RegressionSuite">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.RegressionSuite@2ac273d3]" name="setup" is-config="true" duration-ms="15624" started-at="2021-08-02T10:56:09Z" finished-at="2021-08-02T10:56:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ShowCustDetails -->
-      </class> <!-- practice.ParametersDemo -->
-    </test> <!-- Time-Track Test Cases -->
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="TC001_getPageTitle()[pri:0, instance:testcases.RegressionSuite@2ac273d3]" name="TC001_getPageTitle" duration-ms="53" started-at="2021-08-02T10:56:24Z" finished-at="2021-08-02T10:56:24Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [TIME - Login] but found [actiTIME - Login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [TIME - Login] but found [actiTIME - Login]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at testcases.RegressionSuite.TC001_getPageTitle(RegressionSuite.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_getPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.RegressionSuite@2ac273d3]" name="tearDown" is-config="true" duration-ms="998" started-at="2021-08-02T10:56:24Z" finished-at="2021-08-02T10:56:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.RegressionSuite@2ac273d3]" name="setup" is-config="true" duration-ms="9173" started-at="2021-08-02T10:56:25Z" finished-at="2021-08-02T10:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC002_logintoApp()[pri:0, instance:testcases.RegressionSuite@2ac273d3]" name="TC002_logintoApp" duration-ms="947" started-at="2021-08-02T10:56:35Z" finished-at="2021-08-02T10:56:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_logintoApp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.RegressionSuite@2ac273d3]" name="tearDown" is-config="true" duration-ms="1123" started-at="2021-08-02T10:56:36Z" finished-at="2021-08-02T10:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.RegressionSuite@2ac273d3]" name="setup" is-config="true" duration-ms="10037" started-at="2021-08-02T10:56:37Z" finished-at="2021-08-02T10:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC003_loginadfasd()[pri:0, instance:testcases.RegressionSuite@2ac273d3]" name="TC003_loginadfasd" duration-ms="1436" started-at="2021-08-02T10:56:47Z" finished-at="2021-08-02T10:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_loginadfasd -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.RegressionSuite@2ac273d3]" name="tearDown" is-config="true" duration-ms="1024" started-at="2021-08-02T10:56:48Z" finished-at="2021-08-02T10:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.RegressionSuite@2ac273d3]" name="setup" is-config="true" duration-ms="9507" started-at="2021-08-02T10:56:49Z" finished-at="2021-08-02T10:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="TC004_createTask()[pri:0, instance:testcases.RegressionSuite@2ac273d3]" name="TC004_createTask" duration-ms="43607" started-at="2021-08-02T10:56:59Z" finished-at="2021-08-02T10:57:42Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@title='Sudheer']"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUTHWIK', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56033}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c39c45f74a7dffc868a0dfc8a737136
+*** Element info: {Using=xpath, value=//div[@title='Sudheer']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@title='Sudheer']"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUTHWIK', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56033}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c39c45f74a7dffc868a0dfc8a737136
+*** Element info: {Using=xpath, value=//div[@title='Sudheer']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at testpages.CreateNewCustomer.verifyCustomer(CreateNewCustomer.java:60)
+	at testcases.RegressionSuite.TC004_createTask(RegressionSuite.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_createTask -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.RegressionSuite@2ac273d3]" name="tearDown" is-config="true" duration-ms="970" started-at="2021-08-02T10:57:42Z" finished-at="2021-08-02T10:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.RegressionSuite -->
+    </test> <!-- Tasks Tests -->
   </suite> <!-- ActiTime Automation Tests -->
 </testng-results>

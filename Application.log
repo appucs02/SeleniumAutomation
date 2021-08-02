@@ -154,4 +154,16 @@ Session ID: bc43dc6db222f92b44925031208040cb
   2021-07-28 10:54:41 INFO  ACTI TIME Logger:22 - Setting up for Test Execution on driver
   2021-07-28 10:54:41 INFO  ACTI TIME Logger:22 - Setting up for Test Execution on driver
   2021-07-28 10:54:41 INFO  ACTI TIME Logger:22 - Setting up for Test Execution on driver
+  2021-08-02 10:35:43 INFO  ACTI TIME Logger:22 - Setting up for Test Execution on driver
+  2021-08-02 10:36:01 INFO  ACTI TIME Logger:22 - Setting up for Test Execution on driver
+  2021-08-02 10:36:12 INFO  ACTI TIME Logger:22 - Setting up for Test Execution on driver
+  2021-08-02 10:36:24 INFO  ACTI TIME Logger:22 - Setting up for Test Execution on driver
+  2021-08-02 10:36:33 INFO  ACTI TIME Logger:51 - ******Starting createTask Method ********* 
+  2021-08-02 10:36:47 INFO  ACTI TIME Logger:62 - Customer is created successfully
+  2021-08-02 10:36:47 INFO  ACTI TIME Logger:68 - ******Starting createTask Method ********* 
+  2021-08-02 10:56:09 INFO  ACTI TIME Logger:22 - Setting up for Test Execution on driver
+  2021-08-02 10:56:25 INFO  ACTI TIME Logger:22 - Setting up for Test Execution on driver
+  2021-08-02 10:56:37 INFO  ACTI TIME Logger:22 - Setting up for Test Execution on driver
+  2021-08-02 10:56:49 INFO  ACTI TIME Logger:22 - Setting up for Test Execution on driver
+  2021-08-02 10:56:59 INFO  ACTI TIME Logger:51 - ******Starting createTask Method ********* 
   
