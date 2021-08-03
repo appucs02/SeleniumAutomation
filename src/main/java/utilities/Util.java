@@ -1,6 +1,9 @@
 package utilities;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -196,4 +199,31 @@ public static void jsClickElement(WebElement element,String objName) {
 			logger.info(e.getMessage());
 		}
 	}
+
+public static ArrayList<Map<String,String>> getDataFromExcel(String workBookname, String sheetName){
+	ArrayList<Map<String,String>> lstData = new ArrayList<Map<String,String>>();
+	XLSWorkbookReader xlsReader=null;
+	try {
+		xlsReader = new XLSWorkbookReader(System.getProperty("user.dir")+"/src/test/java/resources/TestData/"+workBookname);
+	}catch(Exception e) {
+		e.printStackTrace();
+	}
+	
+	
+	int rowCount = xlsReader.getRowCount(sheetName);
+	Object[][] objs;
+	for(int iRow = 2;iRow<=rowCount;iRow++) {
+		Map<String ,String> map = new HashMap<String ,String>();
+		for(int iCell=0;iCell<xlsReader.getColumnCount(sheetName);iCell++) {
+			String colName = xlsReader.getCellData(sheetName, iCell, 1);
+			String cellValue = xlsReader.getCellData(sheetName, iCell, iRow);
+			map.put(colName,cellValue);
+//			objs[][]=
+		}
+		lstData.add(map);
+	}
+	
+	return lstData;
+	
+}
 }

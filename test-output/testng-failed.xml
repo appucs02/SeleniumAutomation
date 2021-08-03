@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [ActiTime Automation Tests]">
-  <listeners>
-    <listener class-name="extentreportlistner.ExtentListner"/>
-  </listeners>
-  <test name="Tasks Tests(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="testcases.RegressionSuite">
+      <class name="practice.DataProviderDemo">
         <methods>
           <include name="tearDown"/>
-          <include name="TC004_createTask"/>
           <include name="setup"/>
-          <include name="TC001_getPageTitle"/>
+          <include name="facebookLogin"/>
         </methods>
-      </class> <!-- testcases.RegressionSuite -->
+      </class> <!-- practice.DataProviderDemo -->
     </classes>
-  </test> <!-- Tasks Tests(failed) -->
-</suite> <!-- Failed suite [ActiTime Automation Tests] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
