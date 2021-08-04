@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1379" started-at="2021-08-03T11:05:06Z" finished-at="2021-08-03T11:05:07Z">
+  <suite name="Default suite" duration-ms="1542" started-at="2021-08-04T11:15:48Z" finished-at="2021-08-04T11:15:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1379" started-at="2021-08-03T11:05:06Z" finished-at="2021-08-03T11:05:07Z">
-      <class name="practice.DataProviderDemo">
-        <test-method status="SKIP" signature="facebookLogin(java.util.Iterator)[pri:0, instance:practice.DataProviderDemo@4fe3c938]" name="facebookLogin" duration-ms="0" started-at="2021-08-03T16:35:07Z" data-provider="getFacebookSignOnData" finished-at="2021-08-03T16:35:07Z">
+    <test name="Default test" duration-ms="1542" started-at="2021-08-04T11:15:48Z" finished-at="2021-08-04T11:15:50Z">
+      <class name="testcases.TasksTests">
+        <test-method status="SKIP" signature="createCustomer(java.util.Iterator)[pri:0, instance:testcases.TasksTests@5ec0a365]" name="createCustomer" duration-ms="0" started-at="2021-08-04T16:45:50Z" data-provider="getTasksData" finished-at="2021-08-04T16:45:50Z">
           <exception class="java.lang.ClassCastException">
             <message>
               <![CDATA[sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class]]>
@@ -41,8 +41,8 @@
           </exception> <!-- java.lang.ClassCastException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- facebookLogin -->
-      </class> <!-- practice.DataProviderDemo -->
+        </test-method> <!-- createCustomer -->
+      </class> <!-- testcases.TasksTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -8,12 +8,9 @@
 
 	<test name="Tasks Tests">
 		<classes>
-			<class name="testcases.RegressionSuite">
+			<class name="testcases.TasksTests">
 				<methods>
-					<include name="TC004.*" />
-					<include name="TC002.*" />
-					<include name="TC001.*" />
-					<include name="TC003.*" />
+					<include name="createCustomer" />
 				</methods>
 			</class>
 

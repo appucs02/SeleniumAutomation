@@ -48,7 +48,7 @@ public class CreateNewCustomer extends TestBase {
 	public void clickCreateCustomer() {
 		Util.clickElement(btnCreateCustormer, "Create Customer Button");
 	}
-	public void CreateCustomerData(String custName,String strDescription) {
+	public void CreateCustomerData(String custName,String strDescription ) {
 		this.setCustomerName(custName);
 		this.setDescription(strDescription);
 		this.clickCopyProjectsElement();

@@ -202,9 +202,9 @@ public static void jsClickElement(WebElement element,String objName) {
 
 public static ArrayList<Map<String,String>> getDataFromExcel(String workBookname, String sheetName){
 	ArrayList<Map<String,String>> lstData = new ArrayList<Map<String,String>>();
-	XLSWorkbookReader xlsReader=null;
+	XLSXWorkbookReader xlsReader=null;
 	try {
-		xlsReader = new XLSWorkbookReader(System.getProperty("user.dir")+"/src/test/java/resources/TestData/"+workBookname);
+		xlsReader = new XLSXWorkbookReader(System.getProperty("user.dir")+"/src/test/java/resources/TestData/"+workBookname);
 	}catch(Exception e) {
 		e.printStackTrace();
 	}

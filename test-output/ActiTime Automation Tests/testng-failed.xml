@@ -6,14 +6,13 @@
   </listeners>
   <test name="Tasks Tests(failed)">
     <classes>
-      <class name="testcases.RegressionSuite">
+      <class name="testcases.TasksTests">
         <methods>
-          <include name="tearDown"/>
-          <include name="TC004_createTask"/>
           <include name="setup"/>
-          <include name="TC001_getPageTitle"/>
+          <include name="tearDown"/>
+          <include name="createCustomer"/>
         </methods>
-      </class> <!-- testcases.RegressionSuite -->
+      </class> <!-- testcases.TasksTests -->
     </classes>
   </test> <!-- Tasks Tests(failed) -->
 </suite> <!-- Failed suite [ActiTime Automation Tests] -->
