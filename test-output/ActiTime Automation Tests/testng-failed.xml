@@ -9,8 +9,9 @@
       <class name="testcases.TasksTests">
         <methods>
           <include name="setup"/>
+          <include name="afterTest"/>
           <include name="tearDown"/>
-          <include name="createCustomer"/>
+          <include name="createCustomer" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- testcases.TasksTests -->
     </classes>

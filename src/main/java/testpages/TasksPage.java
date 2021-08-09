@@ -15,6 +15,14 @@ public class TasksPage extends TestBase{
 	@FindBy(xpath="//div[text()='+ New Customer']")
 	WebElement createNewCustomer;
 	
+	//div[@class='customersProjectsPanel']//input[@type='text' and contains(@placeholder,'Start typing name ...')]
+	
+	//div[@class='filteredContainer']//span[@class='highlightToken']
+	//div[@class='filteredContainer']//div[@class='editButton']
+	
+	//div[@class='actionButton']
+	//div[@class='dropdownContainer actionsMenu']//div[@class='title' and text()='Delete'][1]
+	
 	public TasksPage(WebDriver driver){
 		this.driver=driver;
 		PageFactory.initElements(driver, this);

@@ -206,4 +206,218 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62224}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
 Session ID: a28bac0a38a39c62d50031ac8b42ec76
 *** Element info: {Using=class name, value=addNewButton}
+  2021-08-04 20:00:23 INFO  ACTI TIME Logger:26 - Initializing driver and all prerequisites
+  2021-08-04 20:00:34 INFO  ACTI TIME Logger:50 - ******Starting createTask Method ********* 
+  2021-08-04 20:00:44 INFO  ACTI TIME Logger:62 - Customer is created successfully
+  2021-08-04 20:00:44 INFO  ACTI TIME Logger:60 - ******Starting createTask Method ********* 
+  2021-08-04 20:00:45 INFO  ACTI TIME Logger:26 - Initializing driver and all prerequisites
+  2021-08-04 20:00:54 INFO  ACTI TIME Logger:50 - ******Starting createTask Method ********* 
+  2021-08-04 20:01:05 INFO  ACTI TIME Logger:62 - Customer is created successfully
+  2021-08-04 20:01:05 INFO  ACTI TIME Logger:60 - ******Starting createTask Method ********* 
+  2021-08-04 20:12:13 INFO  ACTI TIME Logger:26 - Initializing driver and all prerequisites
+  2021-08-04 20:12:23 INFO  ACTI TIME Logger:51 - ******Starting createTask Method ********* 
+  2021-08-04 20:12:34 INFO  ACTI TIME Logger:62 - Customer is created successfully
+  2021-08-04 20:12:34 INFO  ACTI TIME Logger:61 - ******Starting createTask Method ********* 
+  2021-08-04 20:12:35 INFO  ACTI TIME Logger:26 - Initializing driver and all prerequisites
+  2021-08-04 20:12:44 INFO  ACTI TIME Logger:51 - ******Starting createTask Method ********* 
+  2021-08-04 20:49:39 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 20:49:51 INFO  ACTI TIME Logger:54 - ******Starting createTask Method ********* 
+  2021-08-04 20:50:31 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 20:50:40 INFO  ACTI TIME Logger:54 - ******Starting createTask Method ********* 
+  2021-08-04 20:50:50 INFO  ACTI TIME Logger:62 - Customer is created successfully
+  2021-08-04 20:50:50 INFO  ACTI TIME Logger:64 - ******Starting createTask Method ********* 
+  2021-08-04 21:41:34 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 21:41:46 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 21:42:26 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 21:42:37 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 21:42:48 INFO  ACTI TIME Logger:62 - Customer is created successfully
+  2021-08-04 21:42:48 INFO  ACTI TIME Logger:65 - ******Starting createTask Method ********* 
+  2021-08-04 21:42:49 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 21:42:57 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 21:43:37 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 21:43:47 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 21:45:54 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 21:46:04 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 21:46:46 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 21:46:56 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 21:49:18 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 21:49:30 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 21:50:15 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 21:50:37 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 21:50:48 INFO  ACTI TIME Logger:62 - Customer is created successfully
+  2021-08-04 21:50:48 INFO  ACTI TIME Logger:65 - ******Starting createTask Method ********* 
+  2021-08-04 21:52:54 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 21:53:05 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 21:53:16 INFO  ACTI TIME Logger:62 - Customer is created successfully
+  2021-08-04 21:53:16 INFO  ACTI TIME Logger:65 - ******Starting createTask Method ********* 
+  2021-08-04 21:53:17 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 21:53:26 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 22:00:06 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 22:00:20 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 22:01:03 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 22:01:24 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 22:01:31 INFO  ACTI TIME Logger:47 - element click intercepted: Element <div id="container_tasks"></div> is not clickable at point (665, 45). Other element would receive the click: <div id="preInsertedTransformedMoireId" class="transformedMoireClass" style="transition: opacity 600ms ease-in-out 0s; opacity: 0;"></div>
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUTHWIK', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9f639db9de3c8167e6902619b5f19e9
+  2021-08-04 22:02:45 INFO  ACTI TIME Logger:92 - Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.className: addNewButton' (tried for 45 second(s) with 500 milliseconds interval)
+  2021-08-04 22:02:45 INFO  ACTI TIME Logger:47 - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUTHWIK', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9f639db9de3c8167e6902619b5f19e9
+*** Element info: {Using=class name, value=addNewButton}
+  2021-08-04 22:03:30 INFO  ACTI TIME Logger:92 - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUTHWIK', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9f639db9de3c8167e6902619b5f19e9
+*** Element info: {Using=xpath, value=//div[text()='+ New Customer']}
+  2021-08-04 22:03:30 INFO  ACTI TIME Logger:47 - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUTHWIK', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9f639db9de3c8167e6902619b5f19e9
+*** Element info: {Using=xpath, value=//div[text()='+ New Customer']}
+  2021-08-04 22:04:16 INFO  ACTI TIME Logger:31 - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUTHWIK', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9f639db9de3c8167e6902619b5f19e9
+*** Element info: {Using=xpath, value=//input[@class='inputFieldWithPlaceholder newNameField inputNameField' and @type='text']}
+  2021-08-04 22:05:01 INFO  ACTI TIME Logger:31 - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUTHWIK', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9f639db9de3c8167e6902619b5f19e9
+*** Element info: {Using=xpath, value=//textarea[@placeholder='Enter Customer Description']}
+  2021-08-04 22:05:46 INFO  ACTI TIME Logger:92 - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUTHWIK', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9f639db9de3c8167e6902619b5f19e9
+*** Element info: {Using=xpath, value=//div[@class='emptySelection']}
+  2021-08-04 22:05:46 INFO  ACTI TIME Logger:47 - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUTHWIK', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9f639db9de3c8167e6902619b5f19e9
+*** Element info: {Using=xpath, value=//div[@class='emptySelection']}
+  2021-08-04 22:06:32 INFO  ACTI TIME Logger:92 - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUTHWIK', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9f639db9de3c8167e6902619b5f19e9
+*** Element info: {Using=xpath, value=//div[text()='Big Bang Company' and @class='itemRow cpItemRow ']}
+  2021-08-04 22:06:32 INFO  ACTI TIME Logger:47 - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUTHWIK', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9f639db9de3c8167e6902619b5f19e9
+*** Element info: {Using=xpath, value=//div[text()='Big Bang Company' and @class='itemRow cpItemRow ']}
+  2021-08-04 22:07:17 INFO  ACTI TIME Logger:92 - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUTHWIK', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9f639db9de3c8167e6902619b5f19e9
+*** Element info: {Using=xpath, value=//div[text()='Create Customer']}
+  2021-08-04 22:07:17 INFO  ACTI TIME Logger:47 - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUTHWIK', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\91996\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9f639db9de3c8167e6902619b5f19e9
+*** Element info: {Using=xpath, value=//div[text()='Create Customer']}
+  2021-08-04 22:13:36 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 22:13:45 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 22:13:55 INFO  ACTI TIME Logger:62 - Customer is created successfully
+  2021-08-04 22:13:55 INFO  ACTI TIME Logger:65 - ******Starting createTask Method ********* 
+  2021-08-04 22:13:55 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 22:14:04 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 22:14:12 INFO  ACTI TIME Logger:62 - Customer is created successfully
+  2021-08-04 22:14:12 INFO  ACTI TIME Logger:65 - ******Starting createTask Method ********* 
+  2021-08-04 22:15:05 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 22:15:16 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 22:15:56 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 22:16:06 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 22:35:20 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 22:35:57 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 22:36:07 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 22:36:46 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 22:36:56 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 22:40:19 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 22:40:29 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 22:40:42 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 22:40:51 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 22:42:37 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 22:42:47 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 22:43:08 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 22:43:18 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 22:49:17 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 22:49:27 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 22:49:40 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 22:49:49 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 22:51:22 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 22:51:33 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 22:51:42 INFO  ACTI TIME Logger:62 - Customer is created successfully
+  2021-08-04 22:51:42 INFO  ACTI TIME Logger:65 - ******Starting createTask Method ********* 
+  2021-08-04 22:51:43 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-04 22:51:51 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-04 22:52:01 INFO  ACTI TIME Logger:62 - Customer is created successfully
+  2021-08-04 22:52:01 INFO  ACTI TIME Logger:65 - ******Starting createTask Method ********* 
+  2021-08-09 10:41:36 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-09 10:41:54 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-09 10:42:08 INFO  ACTI TIME Logger:62 - Customer is created successfully
+  2021-08-09 10:42:08 INFO  ACTI TIME Logger:65 - ******Starting createTask Method ********* 
+  2021-08-09 10:42:10 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-09 10:42:22 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-09 10:42:34 INFO  ACTI TIME Logger:62 - Customer is created successfully
+  2021-08-09 10:42:34 INFO  ACTI TIME Logger:65 - ******Starting createTask Method ********* 
+  2021-08-09 10:47:41 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-09 10:47:53 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-09 10:48:04 INFO  ACTI TIME Logger:62 - Customer is created successfully
+  2021-08-09 10:48:04 INFO  ACTI TIME Logger:65 - ******Starting createTask Method ********* 
+  2021-08-09 10:48:05 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-09 10:48:16 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-09 10:48:28 INFO  ACTI TIME Logger:62 - Customer is created successfully
+  2021-08-09 10:48:28 INFO  ACTI TIME Logger:65 - ******Starting createTask Method ********* 
+  2021-08-09 10:48:29 INFO  ACTI TIME Logger:27 - Initializing driver and all prerequisites
+  2021-08-09 10:48:42 INFO  ACTI TIME Logger:55 - ******Starting createTask Method ********* 
+  2021-08-09 10:48:55 INFO  ACTI TIME Logger:62 - Customer is created successfully
+  2021-08-09 10:48:55 INFO  ACTI TIME Logger:65 - ******Starting createTask Method ********* 
   

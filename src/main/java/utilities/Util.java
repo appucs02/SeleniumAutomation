@@ -10,6 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -100,7 +101,7 @@ public class Util extends TestBase{
 		}catch(Exception e) {
 			logger.info(e.getMessage());
 		}
-		
+
 	}
 
 	//Alerts
@@ -132,7 +133,7 @@ public class Util extends TestBase{
 		}
 		return "";
 	}
-	
+
 	public static void setTextIntoAlert(String strValue) {
 		try {
 			waitForAlert();
@@ -142,7 +143,7 @@ public class Util extends TestBase{
 			logger.info(e.getMessage());
 		}
 	}
-	
+
 	//when we have select Tag only
 	public static void selectByVisibleText(WebElement element,String strValue) {
 		Select slc;
@@ -154,7 +155,7 @@ public class Util extends TestBase{
 			logger.info(e.getMessage());
 		}
 	}
-	
+
 	public static void selectfromListofWebElements(List<WebElement> lstOptions,String strValue) {
 		try {
 			for(int i=0;i<lstOptions.size();i++) {
@@ -167,9 +168,9 @@ public class Util extends TestBase{
 			logger.info(e.getMessage());
 		}
 	}
-	
+
 	public static void jsSetText(WebElement element,String objName,String strValue) {
-		
+
 		try {
 			JavascriptExecutor js = (JavascriptExecutor)driver;
 			waitForElementVisibility(element); //waiting x seconds
@@ -183,9 +184,9 @@ public class Util extends TestBase{
 			logger.info(e.getMessage());
 		}
 	}
-	
-public static void jsClickElement(WebElement element,String objName) {
-		
+
+	public static void jsClickElement(WebElement element,String objName) {
+
 		try {
 			JavascriptExecutor js = (JavascriptExecutor)driver;
 			waitForElementVisibility(element); //waiting x seconds
@@ -200,30 +201,39 @@ public static void jsClickElement(WebElement element,String objName) {
 		}
 	}
 
-public static ArrayList<Map<String,String>> getDataFromExcel(String workBookname, String sheetName){
-	ArrayList<Map<String,String>> lstData = new ArrayList<Map<String,String>>();
-	XLSXWorkbookReader xlsReader=null;
-	try {
-		xlsReader = new XLSXWorkbookReader(System.getProperty("user.dir")+"/src/test/java/resources/TestData/"+workBookname);
-	}catch(Exception e) {
-		e.printStackTrace();
-	}
-	
-	
-	int rowCount = xlsReader.getRowCount(sheetName);
-	Object[][] objs;
-	for(int iRow = 2;iRow<=rowCount;iRow++) {
-		Map<String ,String> map = new HashMap<String ,String>();
-		for(int iCell=0;iCell<xlsReader.getColumnCount(sheetName);iCell++) {
-			String colName = xlsReader.getCellData(sheetName, iCell, 1);
-			String cellValue = xlsReader.getCellData(sheetName, iCell, iRow);
-			map.put(colName,cellValue);
-//			objs[][]=
+	public static ArrayList<Map<String,String>> getDataFromExcel(String workBookname, String sheetName){
+		ArrayList<Map<String,String>> lstData = new ArrayList<Map<String,String>>();
+		XLSXWorkbookReader xlsReader=null;
+		try {
+			xlsReader = new XLSXWorkbookReader(System.getProperty("user.dir")+"/src/test/java/resources/TestData/"+workBookname);
+		}catch(Exception e) {
+			e.printStackTrace();
 		}
-		lstData.add(map);
+
+
+		int rowCount = xlsReader.getRowCount(sheetName);
+		Object[][] objs;
+		for(int iRow = 2;iRow<=rowCount;iRow++) {
+			Map<String ,String> map = new HashMap<String ,String>();
+			for(int iCell=0;iCell<xlsReader.getColumnCount(sheetName);iCell++) {
+				String colName = xlsReader.getCellData(sheetName, iCell, 1);
+				String cellValue = xlsReader.getCellData(sheetName, iCell, iRow);
+				map.put(colName,cellValue);
+			}
+			lstData.add(map);
+		}
+
+		return lstData;
+
 	}
-	
-	return lstData;
-	
-}
+
+	public static void mouseOver(WebElement element) {
+		try {
+			waitForElementVisibility(element);
+			Actions act = new Actions(driver);
+			act.moveToElement(element).build().perform();
+		}catch(Exception e) {
+			logger.info(e.getMessage());
+		}
+	}
 }
