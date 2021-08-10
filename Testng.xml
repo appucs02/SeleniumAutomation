@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="ActiTime Automation Tests">
+<suite name="ActiTime Automation Tests",parallel=2,verbose=4>
 	<listeners>
 		<listener class-name="extentreportlistner.ExtentListner" />
 	</listeners>

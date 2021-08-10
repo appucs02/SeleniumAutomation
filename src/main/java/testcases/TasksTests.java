@@ -34,18 +34,18 @@ public class TasksTests extends TestBase {
 	}
 
 	@DataProvider(name="getTasksData")
-	Object[] getTasksData() {
+	Object[] getTasksData(Method method) {
 		List<Map<String,String>> lstData=Util.getDataFromExcel("ActiTimeData.xlsx", "TasksData");
 		int count = lstData.size();
 	/*	Object[] obj = new Object[count];
 
 		Iterator<Map<String,String>> itr = lstData.iterator();*/
 		int i=0;
-//		String name = Method.this.getName();
+		String name = method.getName();
 		//Advanced usage
-		Stream<Map<String,String>> stream = lstData.stream().filter(data->data.containsValue("TC001"));
+		Stream<Map<String,String>> stream = lstData.stream().filter(data->data.containsValue(name));
 		Iterator<Map<String,String>> itr = stream.iterator();
-		Object[] obj= new Object[(int) lstData.stream().filter(data->data.containsValue("TC001")).count()];
+		Object[] obj= new Object[(int) lstData.stream().filter(data->data.containsValue(name)).count()];
 		while(itr.hasNext()) {
 			obj[i++]= itr.next();
 		}
@@ -67,6 +67,16 @@ public class TasksTests extends TestBase {
 		logger.info("******Starting createTask Method ********* " );
 	}
 
+	
+	@Test(dataProvider="getTasksData")
+	void TC002_deleteCustomer(Map<String,String> data) {
+		logger.info("******Starting deleteCustomer Method ********* " );
+		home= new HomePage(driver);
+		home.clickTasksTab();
+		task = new TasksPage(driver);
+		task.deleteCustomer(data.get("custName"));
+	}
+	
 	@AfterMethod
 	void tearDown() {
 		driver.quit();
