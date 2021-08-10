@@ -15,7 +15,6 @@ public class HomePage extends TestBase {
 	@FindBy(xpath="//a[@href='/logout.do' and @class='logout']")
 	WebElement btnLogout;
 	
-	
 	public HomePage(WebDriver driver){
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
